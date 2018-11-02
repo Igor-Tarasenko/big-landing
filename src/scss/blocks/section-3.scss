@@ -1,0 +1,43 @@
+.section-3 {
+	.spent-main-block, .spent-main-block-2 {
+		p {
+			font-size: 24px;
+			font-family: $bold-font;
+			color: #000000;
+			text-align: center;
+			span {
+				font-size: 28px;
+				color: #009c94;
+			}
+		}
+	}
+	.plus {
+		background: url("../img/plus.png") no-repeat center;
+		width: 100%;
+		height: 30px;
+		margin: 30px 0;
+	}
+	.spent {
+		border-radius: 25px;
+		border: 1px solid #959595;
+		background: url("../img/arrow-down.png") no-repeat;
+		text-align: center;
+		background-position: 95% 50%;
+		padding: 28px 160px;
+		margin-bottom: 40px;
+		p {
+			font-family: $description-font;
+			text-transform: uppercase;
+			color: #009c94;
+			font-size: 36px;
+		}
+	}
+	.spent-main-block-2 {
+		.spent {
+			padding: 0px 44px;
+		}
+		.margin {
+			margin: 67px 0 30px 0;
+		}
+	}
+}

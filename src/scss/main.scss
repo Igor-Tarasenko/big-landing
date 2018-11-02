@@ -1,0 +1,70 @@
+@import 'libs';
+@import 'fonts';
+// colors
+$body-background: #ffffff;
+$white-color: #ffffff;
+
+// fonts
+$description-font: 'Roboto', sans-serif;
+$regular-font: 'ArialReg', sans-serif;
+$bold-font: 'ArialBold', sans-serif;
+
+html {
+  	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 400;
+	background: $body-background;
+}
+h1 {
+	font-family: $description-font;
+	font-size: 60px;
+	color: #f26c20;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	text-align: center;
+}
+h2 {
+	font-family: $description-font;
+	font-size: 60px;
+	color: #000000;
+	margin-bottom: 0;
+	text-align: center;
+}
+h3 {
+	font-family: $description-font;
+	font-size: 60px;
+	color: #f26c20;
+	margin-bottom: 0;
+	text-align: center;
+}
+h4 {
+	font-family: $regular-font;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0;
+	color: $white-color;
+}
+a {
+	color: inherit;
+	&:hover {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin-bottom: 0;
+}
+
+@import 'index';

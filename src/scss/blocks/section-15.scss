@@ -1,0 +1,38 @@
+.section-15 {
+	margin-top: 74px;
+	h2 {
+		font-size: 43px;
+		border-left: 28px solid #f26c20;
+		text-align: left;
+		text-transform: uppercase;
+		padding-left: 30px;
+		span {
+			color: #f26c20;
+		}
+	}
+	.section-15_text {
+		padding-left: 15px;
+		p {
+			font-family: $bold-font;
+			font-size: 18px;
+			color: #000000;
+			margin-top: 25px;
+			&:first-child {
+				text-transform: uppercase;
+				color: #009c94;
+				font-size: 24px;
+			}
+		}
+		&:first-child {
+			margin-top: 38px;
+		}
+		&:last-child {
+			p {
+				&:first-child {
+					color: #f26c20;
+					font-size: 30px;
+				}
+			}
+		}
+	}
+}

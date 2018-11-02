@@ -1,0 +1,60 @@
+.they-can {
+	margin-top: 78px;
+	h2 {
+		font-size: 43px;
+		border-left: 28px solid #f26c20;
+		text-align: left;
+		text-transform: uppercase;
+		padding-left: 30px;
+		span {
+			color: #f26c20;
+		}
+	}
+	.people-story-block {
+		margin-top: 40px;
+	}
+	.people-story {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.people-img {
+		margin-right: 20px;
+	}
+	.people-description {
+		p {
+			color: #000000;
+			font-size: 18px;
+		}
+		.name {
+			font-family: $bold-font;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+		}
+		.description {
+			font-family: $regular-font;
+		}
+	}
+	.video {
+		margin-top: 18px;
+		p {
+			font-family: $regular-font;
+			font-size: 18px;
+			color: #009c94;
+			text-decoration: underline;
+			text-align: center;
+			margin-top: 20px;
+			cursor: pointer;
+		}
+	}
+	.people-history {
+		display: none;
+		img {
+			width: 100%;
+			margin-bottom: 15px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

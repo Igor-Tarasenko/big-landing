@@ -1,0 +1,55 @@
+.section-7 {
+	margin-top: 60px;
+	h2 {
+		font-size: 43px;
+		border-left: 28px solid #009c94;
+		text-align: left;
+		text-transform: uppercase;
+		padding-left: 30px;
+		margin-bottom: 30px;
+		span {
+			color: #009c94;
+		}
+	}
+	.section-7_description {
+		p {
+			font-family: $regular-font;
+			font-size: 18px;
+			color: #000000;
+			&:last-child {
+				font-size: 37px;
+				color: #009c94;
+				margin-top: 30px;
+				text-transform: uppercase;
+				margin-bottom: 25px;
+			}
+		}
+	}
+	.famous-people {
+		text-align: center;
+		img {
+			margin-bottom: 24px;
+			width: 100%;
+		}
+		p {
+			font-family: $bold-font;
+			font-size: 18px;
+			color: #000000;
+			line-height: 23px;
+			span {
+				font-size: 24px;
+				color: #009c94;
+			}
+		}
+	}
+	.conference-text {
+		margin-top: 70px;
+		margin-bottom: 30px;
+		p {
+			font-family: $regular-font;
+			font-size: 37px;
+			text-transform: uppercase;
+			color: #009c94;
+		}
+	}
+}

@@ -1,0 +1,68 @@
+.section-18 {
+	.last-grey-block {
+		background: url("../img/bg-fon.png");
+		width: 100%;
+		height: 100%;
+		text-align: left;
+		padding: 30px 40px 30px 40px;
+		border-radius: 15px;
+		p {
+			font-family: $description-font;
+			font-size: 43px;
+			color: #000000;
+			text-transform: uppercase;
+			margin-bottom: 15px;
+			span {
+				color: #009c94;
+			}
+			&:nth-child(2) {
+				font-size: 24px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.sing-up {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		p {
+			color: #009c94;
+			font-size: 24px;
+			font-family: $description-font;
+			text-transform: uppercase;
+			&:last-child {
+				font-size: 18px;
+				font-family: $bold-font;
+				color: #000000;
+				line-height: 40px;
+				margin-top: 5px;
+				span {
+					&:first-child {
+						color: #9e9e9e;
+						text-decoration: line-through;
+						font-size: 36px;
+					}
+					&:nth-child(2) {
+						font-size: 60px;
+						color: #f26c20;
+					}
+					&:last-child {
+						color: #f26c20;
+						font-size: 24px;
+					}
+				}
+			}
+		}
+		.btn {
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 36px;
+			font-family: $description-font;
+			box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.4);
+			background-image: linear-gradient(to top, #008013 0%, #00cf8c 100%);
+			cursor: pointer;
+			padding: 25px 15px;
+			border-radius: 10px;
+		}
+	}
+}

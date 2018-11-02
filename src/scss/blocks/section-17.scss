@@ -1,0 +1,135 @@
+.section-17 {
+	margin-top: 48px;
+	h2 {
+		font-size: 43px;
+		border-left: 28px solid #f26c20;
+		text-align: left;
+		text-transform: uppercase;
+		padding-left: 27px;
+		span {
+			color: #f26c20;
+		}
+	}
+	.question {
+		margin-top: 50px;
+		padding-left: 15px;
+		p {
+			font-family: $bold-font;
+			color: #000000;
+			font-size: 18px;
+			margin-top: 30px;
+			&:first-child {
+				font-family: $regular-font;
+				font-size: 43px;
+				color: #009c94;
+				margin-top: 0;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.program_description {
+		margin-top: 37px;
+		padding-left: 15px;
+		p {
+			font-family: $description-font;
+			font-size: 24px;
+			color: #000000;
+		}
+	}
+	.main-program, .main-program2, .main-program3 {
+		border-bottom: 1px solid #009c94;
+		padding-bottom: 25px;
+		margin-top: 30px;
+		.left-block-of-program {
+			position: relative;
+			text-align: center;
+			padding: 84px 0;
+			p {
+				font-family: $description-font;
+				font-size: 24px;
+				text-transform: uppercase;
+				color: #009c94;
+				padding-left: 66px;
+			}
+			&:before {
+				content: '';
+				background: url("../img/other.png") no-repeat center;
+				width: 100px;
+				height: 101px;
+				position: absolute;
+				left: 0;
+				top: 50%;
+				margin-top: -50px;
+			}
+			&:after {
+				content: '';
+				background: url("../img/right-arrow.png") no-repeat center;
+				width: 21px;
+				height: 137px;
+				position: absolute;
+				top: 50%;
+				right: 0;
+				margin-top: -68px;
+			}
+		}
+		.right-block-of-program {
+			p {
+				font-family: $bold-font;
+				font-size: 18px;
+				color: #000000;
+				&:last-child {
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+	.main-program2 {
+		.left-block-of-program {
+			padding: 57px 0;
+			&:before {
+				content: '';
+				background: url("../img/off.png") no-repeat;
+				width: 90px;
+				height: 87px;
+				position: absolute;
+				left: 0;
+				top: 50%;
+				margin-top: -44px;
+			}
+		}
+	}
+	.main-program3 {
+		border-bottom: none;
+		padding-bottom: 0;
+		.left-block-of-program {
+			padding: 44px 0;
+			&:before {
+				content: '';
+				background: url("../img/percent.png") no-repeat;
+				width: 100px;
+				height: 101px;
+				position: absolute;
+				left: 0;
+				top: 50%;
+				margin-top: -50px;
+			}
+		}
+	}
+	.section-17_img {
+		margin-top: 40px;
+		text-align: center;
+		p {
+			font-family: $bold-font;
+			font-size: 18px;
+			text-transform: uppercase;
+			color: #000000;
+		}
+		img {
+			margin-bottom: 25px;
+			width: 100%;
+		}
+	}
+	.margin-block {
+		margin-bottom: 30px;
+	}
+}

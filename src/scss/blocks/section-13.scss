@@ -1,0 +1,113 @@
+.section-13 {
+	background: #ebebeb;
+	padding: 58px 0;
+	.section-13_description {
+		p {
+			text-align: center;
+			font-family: $description-font;
+			font-size: 20px;
+			color: #000000;
+			text-transform: uppercase;
+		}
+	}
+	.name-service {
+		margin-top: 30px;
+		p {
+			padding-left: 40px;
+			font-family: $bold-font;
+			font-size: 18px;
+			color: #000000;
+			text-transform: uppercase;
+			margin-bottom: 32px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.advantages,
+	.advantages2, .advantages3 {
+		margin-top: 30px;
+		background: #ffffff;
+		border-radius: 25px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 25px 0 34px 0;
+		img {
+			&:nth-child(2) {
+				margin-top: 53px;
+			}
+			&:nth-child(3) {
+				margin-top: 42px;
+			}
+			&:nth-child(4) {
+				margin-top: 56px;
+			}
+			&:nth-child(5) {
+				margin-top: 79px;
+			}
+			&:nth-child(6) {
+				margin-top: 81px;
+			}
+		}
+	}
+	.advantages2, .advantages3 {
+		padding: 25px 0 33px 0;
+		img {
+			&:nth-child(5) {
+				margin-top: 64px;
+			}
+			&:nth-child(6) {
+				margin-top: 72px;
+			}
+		}
+	}
+	.advantages3 {
+		padding: 25px 0 21px 0;
+		img {
+			&:nth-child(6) {
+				margin-top: 59px;
+			}
+		}
+	}
+	.throw {
+		opacity: 0.77;
+		color: #a4a3a3;
+		font-family: $description-font;
+		font-size: 33px;
+		text-decoration: line-through;
+		padding-left: 25px;
+		margin-bottom: -20px;
+	}
+	.real-price {
+		text-align: center;
+		p {
+			font-size: 16px;
+			color: #000000;
+			margin-top: -13px;
+			font-family: $description-font;
+			&:first-child {
+				color: #009c94;
+				font-size: 49px;
+				margin-top: 0;
+			}
+		}
+	}
+	.sign-up_for_interviews {
+		box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.4);
+		background-image: linear-gradient(to top, #008216 0%, #00cd89 100%);
+		text-align: center;
+		border-radius: 10px;
+		padding: 25px 16px;
+		margin-top: 13px;
+		p {
+			color: #ffffff;
+			font-family: $description-font;
+			font-size: 20px;
+			line-height: 20px;
+		}
+	}
+}
+.mobile {
+	display: none;
+}

@@ -1,0 +1,128 @@
+.section-1 {
+	text-align: center;
+	.header-block {
+		p {
+			font-family: $description-font;
+			text-align: center;
+			&:first-child {
+				font-size: 28px;
+				color: #000000;
+			}
+			&:nth-child(2) {
+				font-size: 43px;
+				color: #009c94;
+			}
+		}
+		h2 {
+			margin-top: -25px;
+		}
+		h3 {
+			margin-top: -20px;
+		}
+	}
+	.left-header-info {
+		margin-top: 10px;
+	}
+	.description-with-img {
+		border-radius: 25px;
+		border: 1px solid #959595;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		height: 130px;
+		padding: 10px;
+		margin-top: 30px;
+		p {
+			font-family: $bold-font;
+			font-size: 16px;
+			color: #000000;
+			line-height: 20px;
+			&:last-child {
+				font-family: $regular-font;
+			}
+			span {
+				font-family: $bold-font;
+			}
+		}
+		.list-img {
+			background: url("../img/list.png");
+			background-size: contain;
+			width: 42px;
+			height: 59px;
+		}
+		.calendar-img {
+			background: url("../img/calendar.png");
+			width: 59px;
+			height: 59px;
+			background-size: contain;
+		}
+		.money-img {
+			background: url("../img/money.png");
+			background-size: contain;
+			width: 37px;
+			height: 59px;
+		}
+		.smile-img {
+			background: url("../img/smile.png");
+			background-size: contain;
+			width: 58px;
+			height: 59px;
+		}
+	}
+	.img-block {
+		background: url("../img/women.png") no-repeat center;
+		width: 100%;
+		height: 389px;
+	}
+	.sing-up {
+		background: url("../img/bg-fon.png");
+		width: 100%;
+		height: 100%;
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 40px;
+		border-radius: 15px;
+		p {
+			color: #009c94;
+			font-size: 24px;
+			font-family: $description-font;
+			text-transform: uppercase;
+			&:last-child {
+				font-size: 18px;
+				font-family: $bold-font;
+				color: #000000;
+				line-height: 40px;
+				margin-top: 5px;
+				span {
+					&:first-child {
+						color: #9e9e9e;
+						text-decoration: line-through;
+						font-size: 36px;
+					}
+					&:nth-child(2) {
+						font-size: 60px;
+						color: #f26c20;
+					}
+					&:last-child {
+						color: #f26c20;
+						font-size: 24px;
+					}
+				}
+			}
+		}
+		.btn {
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 36px;
+			font-family: $description-font;
+			box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.4);
+			background-image: linear-gradient(to top, #008013 0%, #00cf8c 100%);
+			cursor: pointer;
+			padding: 25px 15px;
+			border-radius: 10px;
+		}
+	}
+}
